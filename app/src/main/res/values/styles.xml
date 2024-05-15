@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edit_text_styles">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:textColor">@color/color_1_3</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="TextInput" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="endIconTint">@color/color_1_10</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="hintTextAppearance">@style/TextInputLayoutHint</item>
+        <item name="android:textColorHint">@color/color_1_13</item>
+        <item name="hintTextColor">@color/color_1_13</item>
+        <item name="passwordToggleTint">@color/password_toggle_tint</item>
+        <item name="errorTextColor">@color/color_red</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="boxStrokeColor">@color/color_1_19</item>
+        <item name="boxStrokeErrorColor">@color/color_red</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TextInputLayoutHint" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/color_1_13</item>
+        <item name="android:textSize">@dimen/_12sp</item>
+    </style>
+
+    <style name="TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/color_1</item>
+        <item name="android:textColorHint">@color/color_1_13</item>
+        <item name="android:textColorHighlight">@color/color_1_11</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:paddingStart">@dimen/_15dp</item>
+        <item name="android:paddingEnd">@dimen/_17dp</item>
+    </style>
+
+    <style name="BaseMaterialAlertDialogStyle" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">@color/quickStart_MaterialDialogColorSurface</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialogTitleTextStyle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialogBodyTextStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MaterialAlertDialogPositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MaterialAlertDialogNegativeButtonStyle</item>
+        <item name="colorAccent">@color/quickStart_MaterialDialogAccentColor</item>
+        <item name="colorOnSurface">@color/quickStart_MaterialDialogColorOnSurface</item>
+    </style>
+
+    <style name="MaterialAlertDialogTitleTextStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <!--        <item name="android:textSize">@dimen/betCoCommonMaterialDialogTitleTextSize</item>-->
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/quickStart_MaterialDialogTitleTextColor</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+    </style>
+
+    <style name="MaterialAlertDialogBodyTextStyle" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/quickStart_MaterialDialogDescriptionTextColor</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="MaterialAlertDialogPositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/quickStart_MaterialDialogAgreeButtonTextColor</item>
+    </style>
+
+    <style name="MaterialAlertDialogNegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/quickStart_MaterialDialogCancelButtonTextColor</item>
+    </style>
+
+
+</resources>

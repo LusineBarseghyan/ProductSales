@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Главный</string>
+    <string name="favorite">Избранное</string>
+    <string name="account">Аккаунт</string>
+
+
+    <string name="already_have_an_account">У вас уже есть аккаунт?</string>
+    <string name="sign_in_we_are_waiting_for_you">ЗАРЕГИСТРИРУЙТЕСЬ, МЫ ЖДЕМ ВАС</string>
+    <string name="email_username">Эл. почта/имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="remember_me">Запомнить</string>
+    <string name="sign_in">Войти</string>
+    <string name="forgot_your_password">ЗАБЫЛИ ПАРОЛЬ?</string>
+    <string name="reset_password">Сброс пароля</string>
+    <string name="reset_password_via_sms">Сброс пароля через СМС</string>
+    <string name="please_enter_phone_number">Пожалуйста, введите номер телефона</string>
+    <string name="_374">+374</string>
+    <string name="xx_xxx_xxx">(XX) XXX-XXX</string>
+    <string name="send_sms">Отправить смс</string>
+    <string name="resetpassword_via_email">Сбросить пароль по электронной почте</string>
+    <string name="email">Эл. почта</string>
+    <string name="sample_email_com">sample@email.com</string>
+    <string name="helper_text">jjjj</string>
+    <string name="invalid_password">Неверный пароль! </string>
+    <string name="invalid_email">Invalid or empty Email address or username</string>
+    <string name="field_required">The field is required</string>
+    <string name="products">Products</string>
+    <string name="usd">USD</string>
+    <string name="profile">Profile</string>
+    <string name="name_lastName">Lusine Barseghyan</string>
+    <string name="email_address">lusbars1991@mail.ru</string>
+    <string name="Notification">Notification</string>
+    <string name="settings">Settings</string>
+    <string name="english">English</string>
+    <string name="armenian">Հայերեն</string>
+    <string name="russian">Русский</string>
+    <string name="change_language">Язык</string>
+    <string name="app_language">Язык приложения</string>
+    <string name="sign_out">Выход</string>
+    <string name="rating">Рейтинг</string>
+    <string name="discountPercentage">Процент скидки </string>
+    <string name="stock">Запас</string>
+    <string name="error_data">Ошибка данных</string>
+    <string name="personal_data">Персональная информация</string>
+    <string name="there_are_no_favorite_products">Нет избранних продуктов</string>
+    <string name="sms">СМС</string>
+    <string name="age">Возраст</string>
+    <string name="phone">Номер телефона</string>
+    <string name="gender">Пол</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="exit">Вы хотите выйти?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="search">поиск</string>
+    <string name="no_search_result">Нет поисковых запросов</string>
+    <string name="no_user">Пользователь не найден</string>
+    <string name="favorite_products">Избранние продукти</string>
+    <string name="post">Пост</string>
+</resources>

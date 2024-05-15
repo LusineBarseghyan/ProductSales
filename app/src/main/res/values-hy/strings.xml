@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home">Գլխավոր</string>
+    <string name="favorite">Նախընտրելի</string>
+    <string name="account">Իմ հաշիվը</string>
+
+    <string name="already_have_an_account">Արդեն ունեք հաշիվ?</string>
+    <string name="sign_in_we_are_waiting_for_you">Մուտք համակարգ</string>
+    <string name="email_username">Էլ․փոստ կամ մուտքանուն</string>
+    <string name="password">Գաղտնաբառ</string>
+    <string name="remember_me">Պահպանել</string>
+    <string name="sign_in">Մուտք</string>
+    <string name="forgot_your_password">ՄՈՌԱՑԵԼ ԵՔ ՁԵՐ ԳԱՂՏՆԱԲԱՌԸ</string>
+    <string name="reset_password">Վրեկանգնել գաղտնաբառը</string>
+    <string name="reset_password_via_sms">Վերականգնել գաղտնաբառը sms-ի միջոցով</string>
+    <string name="please_enter_phone_number">Խնդրում ենք լրացնել հեռախոսահամարը</string>
+    <string name="_374">+374</string>
+    <string name="xx_xxx_xxx">(XX) XXX-XXX</string>
+    <string name="send_sms">Ուղարկել sms</string>
+    <string name="resetpassword_via_email">Վերականգնել գաղտնաբառը էլ․փոստի միջոցով</string>
+    <string name="email">Email</string>
+    <string name="sample_email_com">sample@email.com</string>
+    <string name="helper_text">jjjj</string>
+    <string name="invalid_password">Սխալ գաղտնաբառ</string>
+    <string name="invalid_email">Մուտքանունը կամ մեյլը սխալ է լրացված կամ դատարակ է</string>
+    <string name="field_required">Դաշտը պարտադիր է</string>
+    <string name="products">Ապրանքներ</string>
+    <string name="usd">USD</string>
+    <string name="profile">Անձնական էջ</string>
+    <string name="name_lastName">Լուսինե Բարսեղյան</string>
+    <string name="email_address">lusbars1991@mail.ru</string>
+    <string name="Notification">Ծանուցումներ</string>
+    <string name="settings">Կարգավորումներ</string>
+    <string name="english">English</string>
+    <string name="armenian">Հայերեն</string>
+    <string name="russian">Русский</string>
+    <string name="change_language">Լեզու</string>
+    <string name="app_language">Հավելվածի լեզուն</string>
+    <string name="sign_out">Դուրս գալ</string>
+    <string name="rating">Վարկանիշ</string>
+    <string name="discountPercentage">Զեղչված տոկոս</string>
+    <string name="stock">Առկա քանակ</string>
+    <string name="error_data">Սխալ տվյալներ</string>
+    <string name="personal_data">Անձնական տվյալներ</string>
+    <string name="there_are_no_favorite_products">Նախընտրելի պրոդուկտներ առկա չեն</string>
+    <string name="sms">SMS</string>
+    <string name="age">Տարիք</string>
+    <string name="phone">Հեռախոսհամար</string>
+    <string name="gender">Սեռ</string>
+    <string name="birth_date">Ծննդյան օր</string>
+    <string name="exit">Դուք ցանկանու՞մ եք ելք անել</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="search">որոնել</string>
+    <string name="no_search_result">Արդյունք չկա</string>
+    <string name="no_user">Օգտատեր չի գտնվել</string>
+    <string name="favorite_products">Նախընտրելի պրոդուկտներ</string>
+    <string name="post">Փոստ</string>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Base.AppTheme"/>
+
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <item name="android:windowBackground">@color/color_1</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+</resources>

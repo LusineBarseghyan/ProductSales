@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home_general"
+    app:startDestination="@id/fakeStartFragment">
+
+    <fragment
+        android:id="@+id/fakeStartFragment"
+        android:name="com.example.quickstartlessons.module.base.fragment.FakeFragment"
+        android:label="" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.quickstartlessons.module.home.ui.HomeMainTabFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home_main_tab" />
+
+    <action
+        android:id="@+id/action_global_homeFragment"
+        app:destination="@id/homeFragment" />
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.quickstartlessons.module.favorite.FavoriteMainTabFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite_main_tab" />
+
+    <action
+        android:id="@+id/action_global_favoriteFragment"
+        app:destination="@id/favoriteFragment" />
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.quickstartlessons.module.account.AccountMainTabFragment"
+        android:label="AccountFragment"
+        tools:layout="@layout/fragment_account_main_tab" >
+
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_accountFragment"
+        app:destination="@id/accountFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.quickstartlessons.module.account.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/settingsFragment" />
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.example.quickstartlessons.module.home.ui.details.ProductDetailsFragment"
+        android:label="ProductDetailsFragment" >
+        <argument
+            android:name="productId"
+            app:argType="string"/>
+    </fragment>
+    <action
+        android:id="@+id/action_global_productDetailsFragment"
+        app:destination="@id/productDetailsFragment" />
+    <fragment
+        android:id="@+id/personalDataFragment"
+        android:name="com.example.quickstartlessons.module.account.person.PersonalDataFragment"
+        android:label="PersonalDataFragment"/>
+
+    <action
+        android:id="@+id/action_global_personalDataFragment"
+        app:destination="@id/personalDataFragment" />
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.quickstartlessons.module.signin.SignInFragment"
+        android:label="SignInFragment" />
+
+    <action
+        android:id="@+id/action_global_signInFragment"
+        app:destination="@id/signInFragment" />
+
+    <fragment
+        android:id="@+id/resetPasswordViewPagerFragment"
+        android:name="com.example.quickstartlessons.module.resetpassword.ResetPasswordViewPagerFragment"
+        android:label="ResetPasswordViewPagerFragment" />
+
+    <action
+        android:id="@+id/action_global_resetPasswordFragment"
+        app:destination="@id/resetPasswordViewPagerFragment" />
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.quickstartlessons.module.launch.SplashFragment"
+        android:label="SplashFragment" />
+
+    <action
+        android:id="@+id/action_global_splashFragment"
+        app:destination="@id/splashFragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.quickstartlessons.module.home.ui.serch.SearchFragment"
+        android:label="SearchFragment" />
+    <action
+        android:id="@+id/action_global_searchFragment"
+        app:destination="@id/searchFragment" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.example.quickstartlessons.module.account.post.PostFragment"
+        android:label="PostFragment" />
+    <action
+        android:id="@+id/action_global_postFragment"
+        app:destination="@id/postFragment" />
+</navigation>
